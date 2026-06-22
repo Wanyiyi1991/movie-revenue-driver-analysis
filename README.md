@@ -58,14 +58,14 @@ movie-revenue-driver-analysis/
 │ ├── shap_summary.png  
 │ └── shap_bar.png  
 └── report/  
-└── analysis_report.md
+└── 电影票房驱动因素分析报告.md
 
 
 ## 🚀 快速复现
 
 ```bash
 # 1. 克隆仓库
-git clone https://github.com/你的用户名/movie-revenue-driver-analysis.git
+git clone https://github.com/Wanyiyi1991/movie-revenue-driver-analysis
 cd movie-revenue-driver-analysis
 
 # 2. 安装依赖
@@ -82,13 +82,13 @@ jupyter notebook notebooks/movie_analysis.ipynb
 
 ### SHAP特征重要性——什么真正驱动票房？
 
-[https://images/shap_summary.png](https://images/shap_summary.png)
+https://github.com/Wanyiyi1991/movie-revenue-driver-analysis/blob/main/images/shap_summary.png
 
 > 横轴是影响方向，颜色代表特征值高低。vote_count（热度）红色点集中在右侧，是票房最强正向驱动力。vote_average（评分）的影响幅度远小于热度。
 
 ### 电影类型的"商业-口碑"光谱
 
-[https://images/genre_performance.png](https://images/genre_performance.png)
+https://github.com/Wanyiyi1991/movie-revenue-driver-analysis/blob/main/images/genre_performance.png
 
 > Adventure/Animation/Sci-Fi处在商业端（高票房），Drama/Documentary处在口碑端（高评分）。
 
